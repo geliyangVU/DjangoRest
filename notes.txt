@@ -1,0 +1,6 @@
+source vent/bin/activate
+
+pip install -r requirements.txt
+
+django-admin startproject cfehome .
+
