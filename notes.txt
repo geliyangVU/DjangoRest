@@ -1,6 +1,16 @@
+The following are the commands that I have used in working with this repository
+
+
+
 source vent/bin/activate
 
 pip install -r requirements.txt
 
 django-admin startproject cfehome .
+
+
+- Django-admin startproject [name of your project] .
+- Python manage.py rumserver
+
+
 
