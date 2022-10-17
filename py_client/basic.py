@@ -1,8 +1,10 @@
 import requests
-endpoint = "https://httpbin.org/status/200/"
-endpoint = "https://httpbin.org"
+# endpoint = "https://httpbin.org/status/200/"
+# endpoint = "https://httpbin.org"
+# endpoint = "https://httpbin.org/anything"
+# endpoint = "https://localhost:8000/"
+endpoint = "http://localhost:8000/api"
 
-endpoint = "https://httpbin.org/anything"
 
 get_response = requests.get(endpoint)
 print(get_response.text)

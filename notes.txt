@@ -1,8 +1,9 @@
 The following are the commands that I have used in working with this repository
+to start django server:       python manage.py runserver
+to start virtual environment: source vent/bin/activate
+to create app component :     python manage.py startapp api
 
 
-
-source vent/bin/activate
 
 pip install -r requirements.txt
 
