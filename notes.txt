@@ -22,3 +22,9 @@ django-admin startproject cfehome .
 
 
 
+from products.models import Product
+Product.objects.last().sale_price
+
+
+use control + D to quit python shell
+
