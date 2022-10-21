@@ -11,10 +11,12 @@ from rest_framework.response import Response
 
 from products.serializers import ProductSerializer
 
-@api_view(["GET","POST"])
+@api_view(["POST"])
 def api_home(request, *args, **kwargs):
+
+    data = request.data
     instance = Product.objects.all().order_by("?").first()
-    data = {}
+    # data = {}
     if instance:
         data = ProductSerializer(instance).data
         # data = model_to_dict(model_data, fields=['id','title','price','sale_price'])
